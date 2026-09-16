@@ -1,7 +1,7 @@
 import random
 import string
 
-print("🔐 BABY PASSWORD MAKER 🔐")
+print(" BABY PASSWORD MAKER ")
 print("=" * 30)
 
 # How long?
@@ -20,6 +20,6 @@ password = ""
 for i in range(length):
     password = password + random.choice(all_chars)
 
-print("\n🎁 Your super secret password:")
+print("\n Your super secret password:")
 print(password)
-print("\n👶 Don't tell anyone!")
+print("\n Don't tell anyone!")
